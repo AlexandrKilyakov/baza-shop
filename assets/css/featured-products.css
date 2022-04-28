@@ -1,0 +1,71 @@
+.basket-table-form td {
+    width: auto;
+}
+
+td.table-name {
+    text-align: start;
+    max-width: 360px;
+}
+
+.cost {
+    font-weight: 500;
+    color: #31392F;
+}
+
+.have {
+    width: fit-content;
+    padding: 0 8px;
+    background: #D8F5C1;
+    margin: 0 auto;
+}
+
+.donthave {
+    width: fit-content;
+    padding: 0 8px;
+    background: #A5A5A5;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.basket-btn {
+    justify-content: left;
+}
+
+.table-btn button path {
+    fill: #121212;
+}
+
+.table-btn button {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 8px;
+    background: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.table-btn-orn path {
+    fill: transparent !important;
+}
+
+.table-btn-orn {
+    background: #F05D23 !important;
+    margin-right: 20px;
+}
+
+/* Адаптив */
+
+@media (max-width: 467px) {
+    .table-btn-orn {
+        margin-right: 10px;
+    }
+    .table-btn button {
+        width: 32px;
+        height: 32px;
+        padding: 4px;
+    }
+}

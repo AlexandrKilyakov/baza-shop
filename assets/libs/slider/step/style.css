@@ -1,0 +1,8 @@
+.slider-steps {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-step {
+    transition: .5s transform ease-out;
+}
